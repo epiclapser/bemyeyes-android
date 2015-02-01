@@ -1,8 +1,8 @@
 package com.bemyeyes;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,6 +35,16 @@ public class WelcomeActivity extends Activity {
 	}
 	
 	public void sightedButtonClick(View v) {
-		Log.i("JC",  "Hejsa");
+		Intent helperIntent = new Intent(this, HelperActivity.class);
+		startActivity(helperIntent);
+
+	}
+	
+	public void blindButtonClick(View v) {
+		
+	}
+	
+	public void loginButtonClick(View v) {
+		
 	}
 }
