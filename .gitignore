@@ -1,5 +1,3 @@
-# Created by https://www.gitignore.io
-
 ### Android ###
 # Built application files
 *.apk
@@ -29,6 +27,12 @@ proguard/
 # Log Files
 *.log
 
+### Mac ###
+.DS_Store
+
+### IDEA / Android Studio ###
+*.iml
+.idea
 
 ### Eclipse ###
 *.pydevproject
