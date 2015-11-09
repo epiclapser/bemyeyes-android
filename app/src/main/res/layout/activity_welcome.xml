@@ -18,5 +18,15 @@
         android:layout_marginLeft="38dp"
         android:onClick="sightedButtonClick"
         android:text="I am sighted" />
-
+<Button
+        android:id="@+id/sightedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="38dp"
+        android:onClick="blindButtonClick"
+       
+        android:text="I am blind" />    
 </RelativeLayout>
