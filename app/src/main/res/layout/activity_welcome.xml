@@ -8,6 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.bemyeyes.WelcomeActivity" >
 
+
     <Button
         android:id="@+id/sightedButton"
         android:layout_width="wrap_content"
