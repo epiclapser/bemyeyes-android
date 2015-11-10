@@ -18,7 +18,7 @@
         android:layout_marginLeft="38dp"
         android:onClick="sightedButtonClick"
         android:text="I am sighted" />
-<Button
+   <Button
         android:id="@+id/blindButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,5 +27,15 @@
         android:layout_marginBottom="80dp"
         android:layout_marginLeft="38dp"
         android:onClick="blindButtonClick"
-        android:text="I am blind" />    
+        android:text="I am blind" />
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="300dp"
+        android:text="What is your role?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
 </RelativeLayout>
