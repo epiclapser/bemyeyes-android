@@ -6,36 +6,53 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bemyeyes.WelcomeActivity" >
+    tools:context="com.bemyeyes.WelcomeActivity"
+	
+	>
 
     <Button
         android:id="@+id/sightedButton"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="124dp"
-        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
         android:onClick="sightedButtonClick"
         android:text="I am sighted" />
-   <Button
-        android:id="@+id/blindButton"
-        android:layout_width="wrap_content"
+	
+		<Button
+        android:id="@+id/sightedButton"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="80dp"
-        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
         android:onClick="blindButtonClick"
-        android:text="I am blind" />
-   <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="300dp"
-        android:text="What is your role?"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+        android:text="I am blind" />    
+	
+	<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="100dp"
+android:layout_marginTop="360dp"
+android:text="What is your role?"
+android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="75dp"
+		android:layout_marginTop="10dp"
+		android:text="The Be My Eyes Network"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
 	
 </RelativeLayout>
